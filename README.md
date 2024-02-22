@@ -1,8 +1,7 @@
-# React + Vite
+# Simple Todo App with CRUD functions + Timer using React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Minimalist UI with simple Navbar & "Add Todo" Nav Link
+- With CRUD functions: Create, Read, Update, Delete
+- Clicking on the Delete button will display a Modal message to confirm action
+- Each todo card has a Timer (counting in seconds only) with Start, Pause & Reset functions
+- Included an error page as one of the Routes
