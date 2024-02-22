@@ -37,7 +37,7 @@ export default function EditTodo() {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             type="text"
-            placeholder="Get software developer job"
+            placeholder="Edit title"
             required
           />
         </Form.Group>
@@ -48,7 +48,7 @@ export default function EditTodo() {
             onChange={(e) => setDescription(e.target.value)}
             as="textarea"
             rows={3}
-            placeholder={`1. Create amazing projects\n2. Apply to Google\n3. Crush interview`}
+            placeholder="Edit description"
             required
           />
         </Form.Group>
