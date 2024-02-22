@@ -29,7 +29,7 @@ export default function AddTodo() {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             type="text"
-            placeholder="Get software developer job"
+            placeholder="Add a title"
             required
           />
         </Form.Group>
@@ -40,7 +40,7 @@ export default function AddTodo() {
             onChange={(e) => setDescription(e.target.value)}
             as="textarea"
             rows={3}
-            placeholder={`1. Create amazing projects\n2. Apply to Google\n3. Crush interview`}
+            placeholder="Add description for task"
             required
           />
         </Form.Group>
